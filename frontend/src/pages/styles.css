@@ -1,0 +1,478 @@
+/* GroupsPage.css */
+
+* {
+    margin: 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 30px;
+    padding: 40px;
+    /* Google Font */
+    background: linear-gradient(135deg, #f5f5f5, #ffffff);
+    /* Subtle gradient */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+p, label {
+    font-size: 2rem;
+    color: #555;
+    /* Softer color for paragraphs and labels */
+    line-height: 1.6;
+    /* Increased line height for better readability */
+    margin-bottom: 15px;
+    /* Add space between paragraphs or labels */
+}
+
+h2, h3, h4 {
+    font-size: 1.6rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 14px 18px;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+    /* Add glow effect on focus */
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    /* Remove default number input styling in Firefox */
+    appearance: textfield;
+    /* Remove default number input arrows in most browsers */
+    background: #f5f5f5;
+    /* Lighter background */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    /* Remove number input arrows in Chrome/Safari */
+    margin: 0;
+}
+
+div{
+    margin:10px;
+    align-items: center;
+}
+button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    /* Slight hover effect */
+}
+
+button.cancel {
+    background-color: #f44336;
+}
+
+button.save {
+    background-color: #4caf50;
+}
+
+.group-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.group-item div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.group-item button {
+    margin-left: 0;
+}
+
+/* Select element styles */
+select {
+    font-family: 'Roboto', sans-serif;
+    padding: 14px 18px;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+select:hover {
+    background-color: #e7e7e7;
+}
+
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+/* GroupsPage.css */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f5f5f5, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.group-input {
+    padding: 14px 18px;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.group-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.add-button {
+    background-color: #007bff;
+}
+
+.cancel-button {
+    background-color: #f44336;
+}
+
+.save-button {
+    background-color: #4caf50;
+}
+
+.edit-button {
+    background-color: #ffc107;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.group-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.group-item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for password input */
+input[type="password"] {
+    padding: 14px 18px;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+.group-item div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Styling the text inside li */
+.group-item span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    text-transform: capitalize;
+    /* Make first letter of each word uppercase */
+    letter-spacing: 0.5px;
+    /* Add slight spacing between letters */
+    margin-right: 10px;
+}
+
+/* GroupsPage.css */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f5f5f5, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.group-input {
+    padding: 14px 18px;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.group-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.add-button {
+    background-color: #007bff;
+}
+
+.cancel-button {
+    background-color: #f44336;
+}
+
+.save-button {
+    background-color: #4caf50;
+}
+
+.edit-button {
+    background-color: #ffc107;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.group-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.group-item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.group-item div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Styling the text inside li */
+span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    text-transform: capitalize;
+    /* Make first letter of each word uppercase */
+    letter-spacing: 0.5px;
+    /* Add slight spacing between letters */
+    margin-right: 10px;
+}
+
+.group-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Ensure li text inside group-item is styled */
+.group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.group-item span {
+    font-size: 2rem;
+    /* Larger text */
+    font-weight: 500;
+    /* Slightly bold text */
+    color: #333;
+    /* Darker color for readability */
+    text-transform: capitalize;
+    /* Capitalize first letter of each word */
+    letter-spacing: 0.5px;
+    /* Slight spacing for readability */
+    margin-right: 10px;
+}
+
+.group-item span:hover {
+    color: #007bff;
+    /* Blue on hover */
+}
+
+.group-item button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+}
+
+.group-item button:hover {
+    transform: translateY(-1px);
+}
+
+/* Adding hover effects to group-item */
+.group-item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

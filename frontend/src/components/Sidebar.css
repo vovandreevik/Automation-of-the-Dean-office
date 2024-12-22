@@ -1,0 +1,21 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.sidebar a.active-link {
+    font-weight: bold;
+    color: blue;
+}
+
+.toolbar {
+    background-color: rgb(231, 230, 230);
+    border-radius: 3%;
+}
