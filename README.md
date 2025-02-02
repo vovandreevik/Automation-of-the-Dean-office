@@ -24,7 +24,7 @@ This project is designed to automate the work of the dean's office, enabling the
 
 ## Database Structure
 
-![Untitled](https://github.com/user-attachments/assets/622df7d3-fa29-4e6d-ab76-955bce6a7818)
+<img src="https://github.com/user-attachments/assets/622df7d3-fa29-4e6d-ab76-955bce6a7818" alt="photo" height="800"/>
 
 ## Installation and Setup
 ### Requirements
@@ -61,5 +61,19 @@ This project provides a REST API for data management. Full documentation is avai
 ```
 http://localhost:8000/docs
 ```
-## screenshots
+## Screenshots
 
+1. Login page
+<img src="https://github.com/user-attachments/assets/7165f213-1ef1-4caf-85c1-9985a6e3f435" alt="photo" height="400"/>
+
+2. Analytics Section
+<img src="https://github.com/user-attachments/assets/ce8d7d39-fbd6-4689-8b5f-a1e4706cce90" alt="photo" height="400"/>
+
+3. Groups section
+<img src="https://github.com/user-attachments/assets/4d90a00c-c993-4d94-9547-2c723144862b" alt="photo" height="400"/>
+
+4. People section
+<img src="https://github.com/user-attachments/assets/e30345d9-555a-46d0-8740-5b49f9f105c4" alt="photo" height="400"/>
+
+5. Report example
+<img src="https://github.com/user-attachments/assets/d8e90288-a7b5-4444-ab36-ed6b37bd6e7a" alt="photo" height="400"/>
